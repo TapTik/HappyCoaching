@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* ----------------------Start header section---------------------- */
+
+.wrapper {
+  max-width: 1300px;
+  margin: 10px auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navUl {
+  display: flex;
+}
+
+.navItem  {
+  list-style-type: none;
+  margin-right: 30px ;
+}
+
+.navItem:last-child {
+  margin-right: 0;
+}
+
+.button {
+  background: #20AD96;
+  padding: 11px 16px;
+  border-radius: 4px;
+  border: none;
+  margin-left: 27px;
+  color: #FFF;
+  font-family: 'Kumbh Sans';
+  font-weight: 600;
+  line-height: 18.2px;
+  cursor: pointer;
+}
+
+a {
+  color: #4A556C;
+  font-family: 'Kumbh Sans';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: -0.3px;
+  text-decoration: none;
+}
+
+/* ----------------------End header section---------------------- */
+
+/* ----------------------Start hero section---------------------- */
+
+.deskriptionSpan {
+  color: #4A556C;
+  font-family: 'Kumbh Sans';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+  opacity: 0.4;
+}
+
+.deskriptionH1 {
+  color: #333461;
+  font-family: 'Kumbh Sans';
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 86.4px;
+  letter-spacing: -0.72px;
+  margin-top: 6px;
+}
+
+.deskriptionP {
+  color: #4A556C;
+  font-family: 'Kumbh Sans';
+  font-size: 18px;
+  line-height: 28.8px;
+  margin-top: 18px;
+}
+
+.deskriptionButton {
+  color: #FFF;
+  font-family: 'Kumbh Sans';
+  line-height: 24px;
+  font-size: 14px;
+  padding: 9px 45px;
+  border-radius: 10px;
+  background: #20AD96;
+  border: none;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.heroDeskription {
+ max-width: 545px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroSection {
+  background: #FAF8F6;
+  padding-top: 80px;
+  position: relative;
+}
+
+.rateTextH3 {
+  color: #333461;
+  text-align: center;
+  font-family: 'Kumbh Sans';
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.72px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.rateTextSpan {
+  color: #4A556C;
+  text-align: center;
+  font-family: 'Kumbh Sans';
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.12px;
+  text-align: left;
+}
+
+.rate {
+  display: flex;
+  position: absolute;
+  background-color: #FFF;
+  padding: 24px;
+  box-shadow: 0px 16px 96px 0px rgba(111, 124, 144, 0.16);
+  align-items: center;
+  top: 35px;
+  left: 50%;
+}
+
+.rateText {
+  margin-left: 16px;
+}
+
+
+
+
+
+.helpDescriptionH2 {
+  color: #333461;
+font-family: 'Kumbh Sans';
+font-size: 48px;
+font-weight: 800;
+line-height: 56px; 
+letter-spacing: -0.48px;
+margin-right: 74px;
+max-width: 545px;
+}
+
+.generalInformationP{
+  color: #4A556C;
+font-family: 'Kumbh Sans';
+font-size: 17px;
+line-height: 25px; 
+word-break:break-all;
+max-width: 545px;
+}
+
+.helpDescription {
+  display: flex;
+  padding: 61px 150px;
+}
+
+.helpElements {
+  display: flex;
+  margin-top: 88px;
+  margin-left: 150px;
+  margin-right: 34px;
+}
+
+.helpElementH3 {
+  color: var(--gray-900, #041434);
+font-family: 'Kumbh Sans';
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.72px;
+margin-top: 32px;
+margin-bottom: 16px;
+}
+
+.helpElementP {
+  color: var(--gray-800, #4A556C);
+font-family: 'Kumbh Sans';
+font-size: 16px;
+line-height: 24px; 
+letter-spacing: -0.32px;
+max-width: 400px;
+}
+
+
+/* ----------------------Start hero section---------------------- */
+
+
+.textAssessment {
+  color: #333461;
+font-family: 'Kumbh Sans';
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 116.667% */
+letter-spacing: -0.48px;
+max-width: 545px;
+}
+
+.AssessmentSection {
+  background: #FAF8F6;
+}
+
+.page32 {
+  display: flex;
+padding: 48px;
+flex-direction: row;
+align-items: flex-start;
+gap: 15px;
+background: var(--White, #FFF);
+box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+}
+
+.page31text {
+  margin-bottom: 37px;
+}
+
+.page31 {
+  padding-top: 120px;
+}
+
+.page32Text {
+  color: #4A556C;
+font-family: Kumbh Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.72px;
+max-width: 304px;
+margin-right: 133px;
+}
+
+.page33Text {
+  color: #333461;
+font-family: Kumbh Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.72px;
+margin-top: 15px;
+}
