@@ -182,7 +182,9 @@ max-width: 545px;
 .helpDescription {
   display: flex;
   padding: 61px 150px;
+  padding-top: 112px;
 }
+
 
 .helpElements {
   display: flex;
@@ -191,6 +193,7 @@ max-width: 545px;
   margin-right: 34px;
   justify-content: space-between;
   margin: 61px;
+  padding-bottom: 79px;
 }
 
 .helpElementH3 {
