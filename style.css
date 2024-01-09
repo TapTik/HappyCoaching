@@ -9,7 +9,7 @@
 
 .wrapper {
   max-width: 1300px;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 .header {
@@ -166,9 +166,9 @@ font-size: 48px;
 font-weight: 800;
 line-height: 56px; 
 letter-spacing: -0.48px;
-margin-right: 74px;
-max-width: 545px;
-}
+max-width: 498px;
+width: 100%;
+ }
 
 .generalInformationP{
   color: #4A556C;
@@ -176,25 +176,26 @@ font-family: 'Kumbh Sans';
 font-size: 17px;
 line-height: 25px; 
 word-break:break-all;
-max-width: 545px;
+max-width: 468px;
 }
 
 .helpDescription {
   display: flex;
-  padding: 61px 150px;
-  padding-top: 112px;
+  justify-content: space-between;
+  margin-right: 96px;
 }
 
 
 .helpElements {
   display: flex;
-  margin-top: 88px;
-  margin-left: 150px;
-  margin-right: 34px;
+  margin-top: 16px;
+  /* margin-left: 150px;
+  margin-right: 34px; */
   justify-content: space-between;
-  margin: 61px;
-  padding-bottom: 79px;
-}
+  /* margin: 61px;
+  padding-bottom: 79px; */
+
+} 
 
 .helpElementH3 {
   color: var(--gray-900, #041434);
@@ -203,18 +204,29 @@ font-size: 24px;
 font-weight: 700;
 line-height: 32px;
 letter-spacing: -0.72px;
+/* margin-top: 32px;
+margin-bottom: 16px; */
 margin-top: 32px;
-margin-bottom: 16px;
 }
 
 .helpElementP {
   display: flex;
-  color: var(--gray-800, #4A556C);
+  color: #4A556C;
 font-family: 'Kumbh Sans';
 font-size: 16px;
 line-height: 24px; 
 letter-spacing: -0.32px;
 max-width: 300px;
+margin-top: 16px;
+}
+
+.helpSection {
+  padding-top: 112px;
+  padding-bottom: 61px;
+}
+
+.helpElement {
+  padding: 40px;
 }
 
 
