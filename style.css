@@ -62,7 +62,7 @@ a {
 
 /* ----------------------End header section---------------------- */
 
-/* ----------------------Start hero section---------------------- */
+/* ----------------------Start deskription section---------------------- */
 
 .deskriptionSpan {
   color: #4A556C;
@@ -155,28 +155,29 @@ a {
   margin-left: 16px;
 }
 
+/* ----------------------End deskription section---------------------- */
 
-
+/* ----------------------Start help section---------------------- */
 
 
 .helpDescriptionH2 {
-  color: #333461;
-font-family: 'Kumbh Sans';
-font-size: 48px;
-font-weight: 800;
-line-height: 56px; 
-letter-spacing: -0.48px;
-max-width: 498px;
-width: 100%;
+    color: #333461;
+  font-family: 'Kumbh Sans';
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px; 
+  letter-spacing: -0.48px;
+  max-width: 498px;
+  width: 100%;
  }
 
 .generalInformationP{
-  color: #4A556C;
-font-family: 'Kumbh Sans';
-font-size: 17px;
-line-height: 25px; 
-word-break:break-all;
-max-width: 468px;
+    color: #4A556C;
+  font-family: 'Kumbh Sans';
+  font-size: 17px;
+  line-height: 25px; 
+  word-break:break-all;
+  max-width: 468px;
 }
 
 .helpDescription {
@@ -189,35 +190,29 @@ max-width: 468px;
 .helpElements {
   display: flex;
   margin-top: 16px;
-  /* margin-left: 150px;
-  margin-right: 34px; */
   justify-content: space-between;
-  /* margin: 61px;
-  padding-bottom: 79px; */
 
 } 
 
 .helpElementH3 {
-  color: var(--gray-900, #041434);
-font-family: 'Kumbh Sans';
-font-size: 24px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: -0.72px;
-/* margin-top: 32px;
-margin-bottom: 16px; */
-margin-top: 32px;
+    color: #041434;
+  font-family: 'Kumbh Sans';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.72px;
+  margin-top: 32px;
 }
 
 .helpElementP {
   display: flex;
-  color: #4A556C;
-font-family: 'Kumbh Sans';
-font-size: 16px;
-line-height: 24px; 
-letter-spacing: -0.32px;
-max-width: 300px;
-margin-top: 16px;
+   color: #4A556C;
+  font-family: 'Kumbh Sans';
+  font-size: 16px;
+  line-height: 24px; 
+  letter-spacing: -0.32px;
+  max-width: 300px;
+  margin-top: 16px;
 }
 
 .helpSection {
@@ -229,64 +224,63 @@ margin-top: 16px;
   padding: 40px;
 }
 
+/* ----------------------Eng help section---------------------- */
 
-/* ----------------------Start hero section---------------------- */
+/* ----------------------Start assassment section---------------------- */
 
-
-.textAssessment {
-  color: #333461;
-font-family: 'Kumbh Sans';
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: 56px; /* 116.667% */
-letter-spacing: -0.48px;
-max-width: 545px;
-}
-
-.AssessmentSection {
+.assessmentSection {
   background: #FAF8F6;
-}
-
-.page32 {
-  display: flex;
-padding: 48px;
-flex-direction: row;
-align-items: flex-start;
-gap: 15px;
-background: var(--White, #FFF);
-box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
-justify-content: space-between;
-margin-bottom: 219px;
-}
-
-.page31text {
-  margin-bottom: 37px;
-}
-
-.page31 {
   padding-top: 120px;
+  padding-bottom: 219px;
+ 
 }
 
-.page32Text {
-  color: #4A556C;
-font-family: Kumbh Sans;
+.assessmentH2 {
+    color: #333461;
+  font-family: 'Kumbh Sans';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.48px;
+  max-width: 530px;
+  padding-bottom: 37px;
+}
+
+.userAssessments{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding-bottom: 219px; */
+}
+
+.assessmentDescription {
+color: #4A556C;
+font-family: 'Kumbh Sans';
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 133.333% */
 letter-spacing: -0.72px;
-max-width: 304px;
-margin-right: 133px;
+max-width: 305px;
+margin-bottom: 15px;
 }
 
-.page33Text {
+.user {
   color: #333461;
-font-family: Kumbh Sans;
+font-family: 'Kumbh Sans';
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: 32px; /* 133.333% */
 letter-spacing: -0.72px;
-margin-top: 15px;
+margin-bottom: 15px;
 }
+
+.userAssessment {
+  padding: 48px;
+  background:#FFF;
+box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+}
+
+/* ----------------------End assassment section---------------------- */
